@@ -16,5 +16,5 @@ jobs:
         env:
             GH_TOKEN: ${{ github.token }}
         run: |
-          gh repo list philips-software
+          gh repo list philips-software --limit 200
       - run: echo "🍏 This job's status is ${{ job.status }}."
