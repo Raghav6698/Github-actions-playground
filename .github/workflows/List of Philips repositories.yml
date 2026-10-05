@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: GitHub Actions to print all the repositories listed in the public Philips Repo
 run-name: List of Philips repositories
 on: [push]
 jobs:
